@@ -8,5 +8,8 @@ namespace ConsoleApp28.Models
 {
     class USER
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
     }
 }
